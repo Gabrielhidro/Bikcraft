@@ -54,12 +54,50 @@ background: black;
 margin: 8px auto;
 }
 
+.subtitulo-interno {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: .1em;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.subtitulo-interno::after {
+content: "";
+display: block;
+height: 3px;
+width: 60px;
+background: black;
+margin: 8px 0;
+}
+
 .introdução-interna {
   width: 100%;
   margin-top: 92px;
   height: 160px;
   background-size: cover;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 30px;
 }
+
+.introdução-interna h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.introdução-interna h1::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: rgb(255, 255, 255);
+  margin: 6px auto 10px auto;
+}
+
 
 /*Header*/
 .header {
@@ -95,6 +133,13 @@ margin: 8px auto;
 .header-menu ul li a:hover {
   color: #ffffff;
 }
+
+.header-menu ul li a.menu-ativo {
+  color: #ffffff;
+}
+
+
+
 
 /*Introdução*/
 
