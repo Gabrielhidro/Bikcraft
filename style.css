@@ -441,3 +441,9 @@ a {
   transition: opacity 800ms, transform 800ms;
 }
 
+.nao-aparece {
+  visibility: hidden;
+  height: 0px;
+  position: absolute;
+}
+
