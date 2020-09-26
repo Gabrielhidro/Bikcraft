@@ -10,11 +10,12 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="produtos.css">
   <link rel="stylesheet" href="responsivo.css">
+  <script>document.documentElement.classList.add("js");</script>
 </head>
 
 <body>
   <header class="header">
-    <div class="container">
+    <div class="container ">
       <a href="index.html" class="grid-4"><img src="img/bikcraft.svg"></a>
       <nav class="header-menu" class="grid-12">
         <ul>
@@ -28,13 +29,13 @@
   </header>
 
   <section class="introdução-interna interna-produtos">
-    <div class="container">
-      <h1>Produtos</h1>
-      <p>conheça todos os nossos produtos</p>
+    <div class="container anime">
+      <h1 data-anime="400" class="fadeindown">Produtos</h1>
+      <p data-anime="800" class="fadeindown">conheça todos os nossos produtos</p>
     </div>
   </section>
 
-  <section class="container produto-item">
+  <section class="container produto-item fadeindown" data-anime="1200">
     <div class="grid-11">
       <img src="img/produtos/bikcraft-passeio-1.jpg" alt="Bikcraft passeio">
       <h2>passeio</h2>
@@ -56,7 +57,7 @@
     </div>
   </section>
 
-  <section class="container produto-item">
+  <section class="container produto-item fadeindown" data-anime="1200">
     <div class="grid-11">
       <img src="img/produtos/bikcraft-esporte-1.jpg" alt="Bikcraft esporte">
       <h2>ESPORTE</h2>
@@ -78,7 +79,7 @@
     </div>
   </section>
 
-  <section class="container produto-item">
+  <section class="container produto-item fadeindown" data-anime="1200">
     <div class="grid-11">
       <img src="img/produtos/bikcraft-retro-1.jpg" alt="Bikcraft retro">
       <h2>RETRO</h2>
@@ -177,6 +178,10 @@
       </div>
     </div>
   </footer>
+
+  <script src="js/simple-anime.js"></script>
+  <script src="js/script.js"></script>
+
 </body>
 
 </html>

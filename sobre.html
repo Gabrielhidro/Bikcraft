@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="sobre.css">
   <link rel="stylesheet" href="responsivo.css">
+  <script>document.documentElement.classList.add("js");</script>
 </head>
 
 <body>
@@ -27,20 +28,20 @@
     </div>
   </header>
 
-  <section class="introdução-interna interna-sobre">
-    <div class="container">
-      <h1>Sobre</h1>
-      <p>conheça mais sobre a bikraft</p>
+  <section class="introdução-interna interna-sobre fadeindown">
+    <div class="container anime">
+      <h1 data-anime="400">Sobre</h1>
+      <p data-anime="800">conheça mais sobre a bikraft</p>
     </div>
   </section>
 
-  <section class="missao-sobre container">
-    <div class="grid-10">
+  <section class="missao-sobre container anime">
+    <div class="grid-10 fadeindown" data-anime="1200">
       <h2 class="subtitulo-interno">História, missão e visão</h2>
       <p>Quando iniciamos a Bikcraft queriamos apenas um produto que adoraríamos utilizar. Eramos apaixonados por pedalar e também por fazer as coisas com as nossas próprias mãos. Assim surgiu um sonho na garagem da nossa casa.</p>
       <p>Conheça os nossos produtos, pergunte para os nossos clientes e descubra a maravilha de ter uma Bikcraft na sua casa.</p>
     </div> 
-    <div class="grid-6">
+    <div class="grid-6 fadeindown" data-anime="1200">
       <h2 class="subtitulo-interno">Valores</h2>
       <ul>
         <li>– Qualidade no processo com</li>
@@ -49,7 +50,7 @@
         <li>– Natureza com sustentabilidade</li>
       </ul>
     </div>
-    <div class="grid-16 foto-equipe">
+    <div class="grid-16 foto-equipe fadeindown" data-anime="1200">
       <img src="img/equipe-bikcraft.jpg" alt="Equipe">
     </div>
   </section>
@@ -122,6 +123,10 @@
       </div>
     </div>
   </footer>
+
+  <script src="js/simple-anime.js"></script>
+  <script src="js/script.js"></script>
+
 </body>
 
 </html>
